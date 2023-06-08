@@ -12,6 +12,10 @@
 * Note: That "localhost" might not work depending on your system so 127.0.0.1 might need to be used instead
 * From your app directory run: npm install
 
+**To Start Backend API:**
+* From the command prompt: mongod
+* From the application directory: npm start (or alternatively: node src/app.js )
+
 **Application Description and Instructions:**
 
 * TO DO
