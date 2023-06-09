@@ -1,7 +1,7 @@
-## Staff Schedule App ##
+## Staff Schedule App API ##
 
-* This is a react scheduler application given to me as an assignment for a job application. 
-* It is implemented using React, Fastify and MongoDb
+* This is the API for ascheduler application given to me as an assignment for a job application. 
+* It is implemented using Fastify and MongoDb
 
 **Installation Instructions:**
 
@@ -16,6 +16,6 @@
 * From the command prompt: mongod
 * From the application directory: npm start (or alternatively: node src/app.js )
 
-**Application Description and Instructions:**
-
-* TO DO
+**Status (Things not working/incomplete):**
+* The API is not working properly, posts to http://127.0.0.1:5000/GetWaiters and http://127.0.0.1:5000/GetCooks will return an empty array ([])
+* The staffController.getCooks() and staffController.getWaiters() methods are not currently completed, they don't filter out to return only cooks or waiters yet
