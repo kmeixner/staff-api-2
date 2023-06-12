@@ -1,18 +1,17 @@
 {
-  "name": "staff-api-2",
+  "name": "building-an-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.1.4",
+    "dotenv": "^16.0.3",
     "fastify": "^4.17.0",
-    "mongoose": "^7.2.2"
+    "mongoose": "^7.2.1"
   }
 }

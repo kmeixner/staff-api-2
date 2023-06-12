@@ -13,9 +13,6 @@ const StaffSchema = new mongoose.Schema({
   waiters: {ScheduleSchema},  
 });
 
-//const Schedule = mongoose.model("Schedule", StaffSchema);
 const Staff = mongoose.model("Staff", StaffSchema);
 
 module.exports = Staff;
-
-

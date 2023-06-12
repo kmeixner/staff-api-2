@@ -2,10 +2,9 @@ const fastify = require("fastify")({ logger: true });
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-// Import Routes:
+// Import my routes
 const staffRoutes = require("./routes/staff.routes");
-
-// Connect to DB (MONGODB_URI be defined in .env)
+// Connect to my database
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
