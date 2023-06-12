@@ -18,4 +18,4 @@
 
 **Status (Things not working/incomplete):**
 * The API is not working properly, posts to http://127.0.0.1:5000/GetWaiters and http://127.0.0.1:5000/GetCooks will return an empty array ([])
-* The staffController.getCooks() and staffController.getWaiters() methods are not currently completed, they don't filter out to return only cooks or waiters yet
+* The staffController.getCooks() and staffController.getWaiters() methods have not been tested yet
