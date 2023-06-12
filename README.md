@@ -17,5 +17,4 @@
 * From the application directory: npm start (or alternatively: node src/app.js )
 
 **Status (Things not working/incomplete):**
-* The API is not working properly, posts to http://127.0.0.1:5000/GetWaiters and http://127.0.0.1:5000/GetCooks will return an empty array ([])
-* The staffController.getCooks() and staffController.getWaiters() methods have not been tested yet
+* The API is not working properly, posts to http://127.0.0.1:5000/GetWaiters will return {"waiters": []} and http://127.0.0.1:5000/GetCooks will return {"cooks": []}
